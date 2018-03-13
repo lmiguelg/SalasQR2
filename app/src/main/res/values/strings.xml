@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SalasQR</string>
+    <string name="result_text_default">Por favor centre a camera no codigo QR </string>
+</resources>

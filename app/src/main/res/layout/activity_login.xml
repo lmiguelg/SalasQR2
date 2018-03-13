@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background_color"
+    android:screenOrientation="portrait"
+    tools:context="com.example.lmigu.salasqr.LoginActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="126dp"
+        app:srcCompat="@drawable/qrcode" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="384dp"
+        android:layout_height="44dp"
+        android:gravity="center"
+        android:text="SalasQR"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <EditText
+        android:id="@+id/editTextNumeroAluno"
+        android:layout_width="339dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Número"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="341dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Password"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="335dp" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="378dp" />
+
+    <TextView
+        android:id="@+id/txtReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Se ainda não tem conta registe-se aqui"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        android:gravity="center"/>
+
+
+</LinearLayout>
